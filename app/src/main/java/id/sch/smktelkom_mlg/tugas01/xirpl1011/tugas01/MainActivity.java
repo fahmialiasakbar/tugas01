@@ -53,13 +53,7 @@ public class MainActivity extends AppCompatActivity {
         String hasil = "Minat\n";
         nama = etNama.getText().toString();
         telpon = etTelpon.getText().toString();
-        if (rbP.isChecked()) {
-            tvHasil4.setText("Laki Laki");
-        } else if (rbP.isChecked()) {
-            tvHasil4.setText("Perempuan");
-        } else {
-            tvHasil4.setText("Anda Belum memilih Gender");
-        }
+
         if (nama.length() < 3) {
             etNama.setError("Nama minimal 3 karakter");
         }
